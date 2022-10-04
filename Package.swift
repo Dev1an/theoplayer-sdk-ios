@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "THEOplayerSDK",
-            path: "THEOplayerSDK.xcframework"
+            path: "Frameworks/THEOplayerSDK-basic/THEOplayerSDK.xcframework"
         ),
         .binaryTarget(
             name: "GoogleInteractiveMediaAds",
